@@ -1,0 +1,4277 @@
+# **************************New Pattern starts here************************
+Version 14#
+setwindow pcb
+new
+newdrawfillin "BGA306C50P21X21_1100X1100X101.dra" "Package Symbol"
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit type Package
+FORM prmedit units Millimeter
+FORM prmedit size Other
+FORM prmedit accuracy 3
+FORM prmedit width 2711
+FORM prmedit height 2436
+FORM prmedit apply
+FORM prmedit x -1095.5
+FORM prmedit y -1245.5
+FORM prmedit apply
+FORM prmedit lock_mode Line
+FORM prmedit lock_direction Off
+FORM prmedit apply
+FORM prmedit done
+setwindow pcb
+Status
+setwindow Form.Status
+FORM status lock_direction Off
+FORM status lock_mode line
+FORM status symbol_mirror NO
+FORM status drawing_size
+FORM status done
+setwindow pcb
+window center; pick     0.0     0.0
+define subclass
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name ASSEMBLY_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SILKSCREEN_TOP
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PASTEMASK_TOP
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SOLDERMASK_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_BOTTOM
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SOLDERMASK_BOTTOM
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PASTEMASK_BOTTOM
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SILKSCREEN_BOTTOM
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name ASSEMBLY_BOTTOM
+setwindow Form.subclass
+FORM subclass BOARD_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name DIMENSION
+setwindow Form.subclass
+FORM subclass BOARD_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name OUTLINE
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name ASSEMBLY_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_BOTTOM
+setwindow Form.subclass
+FORM subclass MANUFACTURING pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name NO_PROBE_TOP
+setwindow Form.subclass
+FORM subclass MANUFACTURING pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name NO_PROBE_BOTTOM
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name CONTACT_AREA
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name CUTOUTSLOTS
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name DIEBONDPADS
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name WIREBONDS
+FORM subclass done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A1
+setwindow pcb
+pick -5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A2
+setwindow pcb
+pick -4.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A3
+setwindow pcb
+pick -4 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A4
+setwindow pcb
+pick -3.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A5
+setwindow pcb
+pick -3 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A6
+setwindow pcb
+pick -2.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A7
+setwindow pcb
+pick -2 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A8
+setwindow pcb
+pick -1.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A9
+setwindow pcb
+pick -1 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A10
+setwindow pcb
+pick -0.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A11
+setwindow pcb
+pick 0 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A12
+setwindow pcb
+pick 0.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A13
+setwindow pcb
+pick 1 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A14
+setwindow pcb
+pick 1.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A15
+setwindow pcb
+pick 2 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A16
+setwindow pcb
+pick 2.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A17
+setwindow pcb
+pick 3 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A18
+setwindow pcb
+pick 3.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A19
+setwindow pcb
+pick 4 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A20
+setwindow pcb
+pick 4.5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number A21
+setwindow pcb
+pick 5 5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B1
+setwindow pcb
+pick -5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B2
+setwindow pcb
+pick -4.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B3
+setwindow pcb
+pick -4 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B4
+setwindow pcb
+pick -3.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B5
+setwindow pcb
+pick -3 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B6
+setwindow pcb
+pick -2.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B7
+setwindow pcb
+pick -2 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B8
+setwindow pcb
+pick -1.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B9
+setwindow pcb
+pick -1 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B10
+setwindow pcb
+pick -0.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B11
+setwindow pcb
+pick 0 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B12
+setwindow pcb
+pick 0.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B13
+setwindow pcb
+pick 1 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B14
+setwindow pcb
+pick 1.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B15
+setwindow pcb
+pick 2 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B16
+setwindow pcb
+pick 2.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B17
+setwindow pcb
+pick 3 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B18
+setwindow pcb
+pick 3.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B19
+setwindow pcb
+pick 4 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B20
+setwindow pcb
+pick 4.5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number B21
+setwindow pcb
+pick 5 4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C1
+setwindow pcb
+pick -5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C2
+setwindow pcb
+pick -4.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C4
+setwindow pcb
+pick -3.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C6
+setwindow pcb
+pick -2.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C8
+setwindow pcb
+pick -1.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C10
+setwindow pcb
+pick -0.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C11
+setwindow pcb
+pick 0 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C12
+setwindow pcb
+pick 0.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C14
+setwindow pcb
+pick 1.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C16
+setwindow pcb
+pick 2.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C18
+setwindow pcb
+pick 3.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C20
+setwindow pcb
+pick 4.5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number C21
+setwindow pcb
+pick 5 4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D1
+setwindow pcb
+pick -5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D2
+setwindow pcb
+pick -4.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D4
+setwindow pcb
+pick -3.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D6
+setwindow pcb
+pick -2.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D8
+setwindow pcb
+pick -1.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D10
+setwindow pcb
+pick -0.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D12
+setwindow pcb
+pick 0.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D14
+setwindow pcb
+pick 1.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D16
+setwindow pcb
+pick 2.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D18
+setwindow pcb
+pick 3.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D20
+setwindow pcb
+pick 4.5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number D21
+setwindow pcb
+pick 5 3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E1
+setwindow pcb
+pick -5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E2
+setwindow pcb
+pick -4.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E3
+setwindow pcb
+pick -4 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E4
+setwindow pcb
+pick -3.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E6
+setwindow pcb
+pick -2.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E8
+setwindow pcb
+pick -1.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E10
+setwindow pcb
+pick -0.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E12
+setwindow pcb
+pick 0.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E14
+setwindow pcb
+pick 1.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E16
+setwindow pcb
+pick 2.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E18
+setwindow pcb
+pick 3.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E19
+setwindow pcb
+pick 4 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E20
+setwindow pcb
+pick 4.5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number E21
+setwindow pcb
+pick 5 3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F1
+setwindow pcb
+pick -5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F2
+setwindow pcb
+pick -4.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F6
+setwindow pcb
+pick -2.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F8
+setwindow pcb
+pick -1.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F10
+setwindow pcb
+pick -0.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F12
+setwindow pcb
+pick 0.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F14
+setwindow pcb
+pick 1.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F16
+setwindow pcb
+pick 2.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F20
+setwindow pcb
+pick 4.5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number F21
+setwindow pcb
+pick 5 2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G1
+setwindow pcb
+pick -5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G2
+setwindow pcb
+pick -4.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G3
+setwindow pcb
+pick -4 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G4
+setwindow pcb
+pick -3.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G5
+setwindow pcb
+pick -3 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G6
+setwindow pcb
+pick -2.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G8
+setwindow pcb
+pick -1.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G10
+setwindow pcb
+pick -0.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G12
+setwindow pcb
+pick 0.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G14
+setwindow pcb
+pick 1.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G16
+setwindow pcb
+pick 2.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G17
+setwindow pcb
+pick 3 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G18
+setwindow pcb
+pick 3.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G19
+setwindow pcb
+pick 4 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G20
+setwindow pcb
+pick 4.5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number G21
+setwindow pcb
+pick 5 2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H1
+setwindow pcb
+pick -5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H2
+setwindow pcb
+pick -4.5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H8
+setwindow pcb
+pick -1.5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H10
+setwindow pcb
+pick -0.5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H12
+setwindow pcb
+pick 0.5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H14
+setwindow pcb
+pick 1.5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H20
+setwindow pcb
+pick 4.5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number H21
+setwindow pcb
+pick 5 1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J1
+setwindow pcb
+pick -5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J2
+setwindow pcb
+pick -4.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J3
+setwindow pcb
+pick -4 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J4
+setwindow pcb
+pick -3.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J5
+setwindow pcb
+pick -3 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J6
+setwindow pcb
+pick -2.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J7
+setwindow pcb
+pick -2 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J8
+setwindow pcb
+pick -1.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J9
+setwindow pcb
+pick -1 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J10
+setwindow pcb
+pick -0.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J11
+setwindow pcb
+pick 0 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J12
+setwindow pcb
+pick 0.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J13
+setwindow pcb
+pick 1 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J14
+setwindow pcb
+pick 1.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J15
+setwindow pcb
+pick 2 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J16
+setwindow pcb
+pick 2.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J17
+setwindow pcb
+pick 3 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J18
+setwindow pcb
+pick 3.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J19
+setwindow pcb
+pick 4 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J20
+setwindow pcb
+pick 4.5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number J21
+setwindow pcb
+pick 5 1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K1
+setwindow pcb
+pick -5 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K2
+setwindow pcb
+pick -4.5 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K10
+setwindow pcb
+pick -0.5 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K11
+setwindow pcb
+pick 0 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K12
+setwindow pcb
+pick 0.5 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K20
+setwindow pcb
+pick 4.5 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number K21
+setwindow pcb
+pick 5 0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L1
+setwindow pcb
+pick -5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L2
+setwindow pcb
+pick -4.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L3
+setwindow pcb
+pick -4 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L4
+setwindow pcb
+pick -3.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L5
+setwindow pcb
+pick -3 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L6
+setwindow pcb
+pick -2.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L7
+setwindow pcb
+pick -2 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L8
+setwindow pcb
+pick -1.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L9
+setwindow pcb
+pick -1 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L10
+setwindow pcb
+pick -0.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L12
+setwindow pcb
+pick 0.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L13
+setwindow pcb
+pick 1 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L14
+setwindow pcb
+pick 1.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L15
+setwindow pcb
+pick 2 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L16
+setwindow pcb
+pick 2.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L17
+setwindow pcb
+pick 3 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L18
+setwindow pcb
+pick 3.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L19
+setwindow pcb
+pick 4 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L20
+setwindow pcb
+pick 4.5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number L21
+setwindow pcb
+pick 5 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M1
+setwindow pcb
+pick -5 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M2
+setwindow pcb
+pick -4.5 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M10
+setwindow pcb
+pick -0.5 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M11
+setwindow pcb
+pick 0 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M12
+setwindow pcb
+pick 0.5 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M20
+setwindow pcb
+pick 4.5 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number M21
+setwindow pcb
+pick 5 -0.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N1
+setwindow pcb
+pick -5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N2
+setwindow pcb
+pick -4.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N3
+setwindow pcb
+pick -4 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N4
+setwindow pcb
+pick -3.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N5
+setwindow pcb
+pick -3 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N6
+setwindow pcb
+pick -2.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N7
+setwindow pcb
+pick -2 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N8
+setwindow pcb
+pick -1.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N9
+setwindow pcb
+pick -1 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N10
+setwindow pcb
+pick -0.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N11
+setwindow pcb
+pick 0 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N12
+setwindow pcb
+pick 0.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N13
+setwindow pcb
+pick 1 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N14
+setwindow pcb
+pick 1.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N15
+setwindow pcb
+pick 2 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N16
+setwindow pcb
+pick 2.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N17
+setwindow pcb
+pick 3 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N18
+setwindow pcb
+pick 3.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N19
+setwindow pcb
+pick 4 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N20
+setwindow pcb
+pick 4.5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number N21
+setwindow pcb
+pick 5 -1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P1
+setwindow pcb
+pick -5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P2
+setwindow pcb
+pick -4.5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P8
+setwindow pcb
+pick -1.5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P10
+setwindow pcb
+pick -0.5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P12
+setwindow pcb
+pick 0.5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P14
+setwindow pcb
+pick 1.5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P20
+setwindow pcb
+pick 4.5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number P21
+setwindow pcb
+pick 5 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R1
+setwindow pcb
+pick -5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R2
+setwindow pcb
+pick -4.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R3
+setwindow pcb
+pick -4 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R4
+setwindow pcb
+pick -3.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R5
+setwindow pcb
+pick -3 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R6
+setwindow pcb
+pick -2.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R8
+setwindow pcb
+pick -1.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R10
+setwindow pcb
+pick -0.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R12
+setwindow pcb
+pick 0.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R14
+setwindow pcb
+pick 1.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R16
+setwindow pcb
+pick 2.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R17
+setwindow pcb
+pick 3 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R18
+setwindow pcb
+pick 3.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R19
+setwindow pcb
+pick 4 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R20
+setwindow pcb
+pick 4.5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number R21
+setwindow pcb
+pick 5 -2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T1
+setwindow pcb
+pick -5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T2
+setwindow pcb
+pick -4.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T6
+setwindow pcb
+pick -2.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T8
+setwindow pcb
+pick -1.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T10
+setwindow pcb
+pick -0.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T12
+setwindow pcb
+pick 0.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T14
+setwindow pcb
+pick 1.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T16
+setwindow pcb
+pick 2.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T20
+setwindow pcb
+pick 4.5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number T21
+setwindow pcb
+pick 5 -2.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U1
+setwindow pcb
+pick -5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U2
+setwindow pcb
+pick -4.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U3
+setwindow pcb
+pick -4 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U4
+setwindow pcb
+pick -3.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U6
+setwindow pcb
+pick -2.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U8
+setwindow pcb
+pick -1.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U10
+setwindow pcb
+pick -0.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U12
+setwindow pcb
+pick 0.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U14
+setwindow pcb
+pick 1.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U16
+setwindow pcb
+pick 2.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U18
+setwindow pcb
+pick 3.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U19
+setwindow pcb
+pick 4 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U20
+setwindow pcb
+pick 4.5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number U21
+setwindow pcb
+pick 5 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V1
+setwindow pcb
+pick -5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V2
+setwindow pcb
+pick -4.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V4
+setwindow pcb
+pick -3.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V6
+setwindow pcb
+pick -2.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V8
+setwindow pcb
+pick -1.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V10
+setwindow pcb
+pick -0.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V12
+setwindow pcb
+pick 0.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V14
+setwindow pcb
+pick 1.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V16
+setwindow pcb
+pick 2.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V18
+setwindow pcb
+pick 3.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V20
+setwindow pcb
+pick 4.5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number V21
+setwindow pcb
+pick 5 -3.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W1
+setwindow pcb
+pick -5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W2
+setwindow pcb
+pick -4.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W4
+setwindow pcb
+pick -3.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W6
+setwindow pcb
+pick -2.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W8
+setwindow pcb
+pick -1.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W10
+setwindow pcb
+pick -0.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W11
+setwindow pcb
+pick 0 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W12
+setwindow pcb
+pick 0.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W14
+setwindow pcb
+pick 1.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W16
+setwindow pcb
+pick 2.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W18
+setwindow pcb
+pick 3.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W20
+setwindow pcb
+pick 4.5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number W21
+setwindow pcb
+pick 5 -4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y1
+setwindow pcb
+pick -5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y2
+setwindow pcb
+pick -4.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y3
+setwindow pcb
+pick -4 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y4
+setwindow pcb
+pick -3.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y5
+setwindow pcb
+pick -3 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y6
+setwindow pcb
+pick -2.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y7
+setwindow pcb
+pick -2 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y8
+setwindow pcb
+pick -1.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y9
+setwindow pcb
+pick -1 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y10
+setwindow pcb
+pick -0.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y11
+setwindow pcb
+pick 0 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y12
+setwindow pcb
+pick 0.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y13
+setwindow pcb
+pick 1 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y14
+setwindow pcb
+pick 1.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y15
+setwindow pcb
+pick 2 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y16
+setwindow pcb
+pick 2.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y17
+setwindow pcb
+pick 3 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y18
+setwindow pcb
+pick 3.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y19
+setwindow pcb
+pick 4 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y20
+setwindow pcb
+pick 4.5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number Y21
+setwindow pcb
+pick 5 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA1
+setwindow pcb
+pick -5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA2
+setwindow pcb
+pick -4.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA3
+setwindow pcb
+pick -4 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA4
+setwindow pcb
+pick -3.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA5
+setwindow pcb
+pick -3 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA6
+setwindow pcb
+pick -2.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA7
+setwindow pcb
+pick -2 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA8
+setwindow pcb
+pick -1.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA9
+setwindow pcb
+pick -1 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA10
+setwindow pcb
+pick -0.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA11
+setwindow pcb
+pick 0 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA12
+setwindow pcb
+pick 0.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA13
+setwindow pcb
+pick 1 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA14
+setwindow pcb
+pick 1.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA15
+setwindow pcb
+pick 2 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA16
+setwindow pcb
+pick 2.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA17
+setwindow pcb
+pick 3 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA18
+setwindow pcb
+pick 3.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA19
+setwindow pcb
+pick 4 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA20
+setwindow pcb
+pick 4.5 -5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c29
+setwindow Form.mini
+FORM mini next_pin_number AA21
+setwindow pcb
+pick 5 -5
+done
+setwindow pcb
+Label refdes
+setwindow Form.mini
+FORM mini class REF DES
+FORM mini subclass SILKSCREEN_TOP
+FORM mini text_block 3
+FORM mini text_justification Center
+FORM mini angle 0
+FORM mini mirror NO
+setwindow pcb
+pick 0 0
+Text IC*
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.05
+FORM mini lock_direction Off
+setwindow pcb
+pick -6.5 6.5
+pick 6.5 6.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.05
+FORM mini lock_direction Off
+setwindow pcb
+pick 6.5 6.5
+pick 6.5 -6.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.05
+FORM mini lock_direction Off
+setwindow pcb
+pick 6.5 -6.5
+pick -6.5 -6.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.05
+FORM mini lock_direction Off
+setwindow pcb
+pick -6.5 -6.5
+pick -6.5 6.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -5.5 5.5
+pick 5.5 5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 5.5 5.5
+pick 5.5 -5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 5.5 -5.5
+pick -5.5 -5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -5.5 -5.5
+pick -5.5 5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -5.5 2.75
+pick -2.75 5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -5 5.5
+pick 5.5 5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick 5.5 5.5
+pick 5.5 -5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick 5.5 -5.5
+pick -5.5 -5.5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -5.5 -5.5
+pick -5.5 5
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -5.5 5
+pick -5 5.5
+done
+Create Symbol
+fillin "BGA306C50P21X21_1100X1100X101"
+setwindow pcb
+trapsize 503
+dbdoctor
+setwindow Form.dbdoctor_allegro
+FORM dbdoctor_allegro drc YES
+FORM dbdoctor_allegro shapes YES
+FORM dbdoctor_allegro execute
+setwindow pcb
+save_as
+fillin "BGA306C50P21X21_1100X1100X101"
+setwindow pcb
+#exit

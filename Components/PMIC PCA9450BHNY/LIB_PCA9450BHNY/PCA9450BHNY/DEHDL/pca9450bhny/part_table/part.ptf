@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCA9450BHNY'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "PCA9450BHNY" (!) = "", "QFN40P700X700X100-57N-D", "Quad Flat No-Lead", "771-PCA9450BHNY", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9450BHNY?qs=Cb2nCFKsA8rwtiYebomP2w%3D%3D", "Power Management Specialized - PMIC Power Manage IC (PMIC) for i.MX 8M Nano", "https://www.nxp.com/docs/en/data-sheet/PCA9450DS.pdf", "1 mm"
+END_PART
+
+END.
