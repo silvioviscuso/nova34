@@ -1,4 +1,4 @@
-# Headboard Custom PCB (Altium) - Open Source 🚀
+# Ultra Small Linux Board - Custom PCB Open Source 🚀
 
 ![GitHub stars](https://img.shields.io/github/stars/your-repo.svg?style=flat&logo=github) 
 
@@ -41,7 +41,7 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 | PCB + Stencil | - | 120-150 |
 
 ## 🗺️ Mapping Preview
-![Mapping Preview](https://github.com/ankivector_headboard/images/map_preview.png)
+![Mapping Preview](https://github.com/applabstudio/ankivector_headboard/blob/main/images/map_preview.png?raw=true)
 
 ## 🚀 Getting Started
 1. **Download the Design Files**  
