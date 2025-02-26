@@ -7,6 +7,8 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 
 🎯 **The goal was to make it accessible to everyone—hobbyists, makers, robotics enthusiasts—without minimum order limitations.** This project follows the workflow of creating an SBC (Single Board Computer), robot board, and wearable device.
 
+![Preview](https://github.com/applabstudio/ankivector_headboard/blob/main/images/preview_gif.gif?raw=true)
+
 ## 📏 Dimensions
 - **Width:** 34mm  
 - **Height:** 30.946mm  
