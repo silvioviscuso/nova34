@@ -1,8 +1,6 @@
 # Headboard Custom PCB (Altium) - Open Source 🚀
 
-![GitHub stars](https://img.shields.io/github/stars/ankivector_headboard.svg?style=flat&logo=github) 
-![GitHub forks](https://img.shields.io/github/forks/ankivector_headboard.svg?style=flat&logo=github) 
-![GitHub license](https://img.shields.io/github/license/ankivector_headboard.svg)
+![GitHub stars](https://img.shields.io/github/stars/your-repo.svg?style=flat&logo=github) 
 
 ## Overview
 This is an open-source headboard custom PCB designed in Altium for integration with the NXP MIMX8MN5DVPIZAA (I.MX 8M NANO). The board is designed to support essential peripherals such as eMMC storage, LPDDR4X RAM, WiFi/Bluetooth, camera module, and display. The design is optimized for performance and ease of assembly, with a compact form factor.
