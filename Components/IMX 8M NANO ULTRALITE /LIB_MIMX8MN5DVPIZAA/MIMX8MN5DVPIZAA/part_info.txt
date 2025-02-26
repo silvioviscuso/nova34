@@ -1,9 +1,0 @@
-Manufacturer=NXP
-PartNumber=MIMX8MN5DVPIZAA
-PartCategory=Integrated Circuit
-PackageCategory=BGA
-PinCount=306
-Version=2.1
-Released=2022-03-02 14:22:13
-Downloaded=2024-07-22 11:33:40
-3D=Y
