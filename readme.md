@@ -42,9 +42,6 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 | Display | ST0103A2W-WSNLW-F | 31.84 |
 | PCB + Stencil | - | 120-150 |
 
-## 🗺️ Mapping Preview
-![Mapping Preview](https://github.com/applabstudio/ankivector_headboard/blob/main/images/map_preview.png?raw=true)
-
 ## 🚀 Getting Started
 1. **Download the Design Files**  
    - [GitHub Repository](https://github.com/applabstudio/ankivector_headboard)
