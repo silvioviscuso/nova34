@@ -41,7 +41,7 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 | PCB + Stencil | - | 120-150 |
 
 ## 🗺️ Mapping Preview
-![Mapping Preview](https://github.com/ankivector_headboard/map_preview.png)
+![Mapping Preview](https://github.com/ankivector_headboard/images/map_preview.png)
 
 ## 🚀 Getting Started
 1. **Download the Design Files**  
