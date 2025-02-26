@@ -1,0 +1,14 @@
+Record=TopLevelDocument|FileName=IMU_DISPLAY.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page01 COVER.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page02 BLOCK DIAGRAM.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page03 PWR TREE.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page04 CPU PWR.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page05 DDR4L+eMMC.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page06 CPU IO.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page07 CPU PHY.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page08 CPU MISC.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page09 eMMC_QSPI.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page10 WIFI&Bluetooth.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page11 BOOT_CFG.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page12 PMIC PCA9450B.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=IMU_DISPLAY.SchDoc|FileName=Page13 SOM Interface.SchDoc|SheetNumber=13
