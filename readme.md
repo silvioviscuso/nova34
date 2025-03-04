@@ -1,5 +1,5 @@
 ![Preview](https://github.com/applabstudio/ankivector_headboard/blob/main/images/banner.png?raw=true)
-# Ultra Small Linux Board - Custom PCB Open Source 🚀
+# NOVA34 Ultra Small Linux Board - Custom PCB Open Source 🚀
 
 ![GitHub stars](https://img.shields.io/github/stars/your-repo.svg?style=flat&logo=github) 
 
