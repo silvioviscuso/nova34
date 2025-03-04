@@ -1,0 +1,489 @@
+*************************************************************
+FileName = Anki_vector_headboard_ultra_2.GBR
+AutoAperture = True
+*************************************************************
+Generating : Keep-Out Layer
+      File : Anki_vector_headboard_ultra_2_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D89
+    D90
+    D91
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Anki_vector_headboard_ultra_2_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D25
+    D26
+    D27
+    D29
+    D33
+    D42
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Anki_vector_headboard_ultra_2_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Anki_vector_headboard_ultra_2_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D44
+    D45
+    D47
+    D48
+    D49
+    D51
+    D55
+    D65
+    D66
+    D67
+    D73
+    D74
+    D76
+    D78
+    D79
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Anki_vector_headboard_ultra_2_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Anki_vector_headboard_ultra_2_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Anki_vector_headboard_ultra_2_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Anki_vector_headboard_ultra_2_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D68
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Anki_vector_headboard_ultra_2_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D25
+    D26
+    D27
+    D29
+    D33
+    D42
+    D68
+    D69
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D21
+    D22
+    D23
+    D25
+    D26
+    D27
+    D29
+    D33
+    D42
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+*************************************************************
+
+*************************************************************
+Generating : Int6 (Sign)
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_6.gbr
+
+    Adding Layer      : Int6 (Sign)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Int5 (PWR)
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_5.gbr
+
+    Adding Layer      : Int5 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Int4 (Sign)
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_4.gbr
+
+    Adding Layer      : Int4 (Sign)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Int3 (Sign)
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_3.gbr
+
+    Adding Layer      : Int3 (Sign)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Int2 (GND)
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_2.gbr
+
+    Adding Layer      : Int2 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Int1 (Sign)
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_1.gbr
+
+    Adding Layer      : Int1 (Sign)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Anki_vector_headboard_ultra_2_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D17
+    D18
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : Anki_vector_headboard_ultra_2_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D13
+    D92
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : Anki_vector_headboard_ultra_2_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Anki_vector_headboard_ultra_2_Profile.gbr
+
+
+Used DCodes :
+    D93
+*************************************************************
+
