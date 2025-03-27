@@ -1,0 +1,64 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "M310220_KAV")
+Pad (Name "1") (Location -41.3386, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43, 67) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 41.3386, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43, 67) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -73, -43.5) (End -73, 43.5) (Layer Mechanical15) 
+Line (Width 6) (Start -73, 43.5) (End -73, 43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 73, 43.5) (End 73, 43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 73, 43.5) (End 73, -43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 73, -43.5) (End 73, -43.5) (Layer Mechanical15) 
+Line (Width 6) (Start -73, -43.5) (End -73, -43.5) (Layer Mechanical15) 
+Line (Width 6) (Start -73, -43.5) (End -73, -43.5) (Layer Mechanical15) 
+Line (Width 6) (Start -73, 43.5) (End -73, 53.5) (Layer Mechanical15) 
+Line (Width 6) (Start -73, 53.5) (End 73, 53.5) (Layer Mechanical15) 
+Line (Width 6) (Start 73, 53.5) (End 73, 43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 73, -43.5) (End 73, -43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 73, -43.5) (End -73, -43.5) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-73, -43.5)
+Point (-73, 43.5)
+Point (-73, 43.5)
+Point (-73, 53.5)
+Point (73, 53.5)
+Point (73, 43.5)
+Point (73, 43.5)
+Point (73, -43.5)
+Point (73, -43.5)
+Point (73, -43.5)
+Point (-73, -43.5)
+Point (-73, -43.5)
+EndPolygon
+Line (Width 6) (Start -7.73033794, -38.5) (End 7.73033794, -38.5) (Layer TopOverlay) 
+Line (Width 6) (Start 7.73033794, 38.5) (End -7.73033794, 38.5) (Layer TopOverlay) 
+Arc (Width 6) (Radius 5) (Location -88.33857727, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -63, -33.5) (End 63, -33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 63, -33.5) (End 63, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 63, 33.5) (End -63, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start -63, 33.5) (End -63, -33.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location -19.83857918, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 0) (Radius 12) (Location 0, 33.5) (StartAngle 180) (EndAngle 360) (Layer Mechanical13) 
+Step (Name M310220_KAV.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "M310220") (PartCount 1) (DesPrefix "AE?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Visible "FEED") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 1300, 0) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "2") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Rectangle (Width 5) (Start 300, -200) (End 1300, 200) (Part 1)
+Parameter (Name "Type") (Location 800, 300) (Height 82) (Rotation 0) (Justification Center) (Value "RF Antennas") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "KYOCERA AVX") (Part 1)
+Parameter (Name "RefDes") (Location 800, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "M310220_KAV")
+EndComponent
+EndComponents

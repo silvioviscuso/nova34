@@ -1,9 +1,0 @@
-Manufacturer=NXP
-PartNumber=PCA9450BHNY
-PartCategory=Integrated Circuit
-PackageCategory=Quad Flat No-Lead
-PinCount=57
-Version=1.1
-Released=2021-10-31 04:47:21
-Downloaded=2024-07-22 12:34:39
-3D=Y
