@@ -1,4 +1,4 @@
-![Preview](https://github.com/applabstudio/ankivector_headboard/blob/main/images/banner.png?raw=true)
+![Preview](https://github.com/silvioviscuso/nova34/blob/main/images/banner.png?raw=true)
 # NOVA34 Ultra Small Linux Board - Custom PCB Open Source 🚀
 
 ![GitHub stars](https://img.shields.io/github/stars/your-repo.svg?style=flat&logo=github) 
@@ -8,7 +8,8 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 
 🎯 **The goal was to make it accessible to everyone—hobbyists, makers, robotics enthusiasts—without minimum order limitations.** This project follows the workflow of creating an SBC (Single Board Computer), robot board, and wearable device.
 
-![Preview](https://github.com/applabstudio/ankivector_headboard/blob/main/images/preview_gif.gif?raw=true)
+![Preview](https://github.com/silvioviscuso/nova34/blob/main/images/preview_gif.gif?raw=true)
+###### Preview from Rev_1.3
 
 ## 📏 Dimensions
 - **Width:** 34mm  
@@ -16,41 +17,75 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 - **Thickness:** 1mm  
 
 ## 🛠️ Technical Specifications
-### **Back Side**
-- **Processor:** NXP MIMX8MN5DVPIZAA (I.MX 8M NANO)
-- **Memory:** eMMC 5.1 HS400 + LPDDR4X 144-FBGA (8x9.5) Kingston 32EP16-M4FTC32-GA68
-- **Boot Mode:** Serial Download Mode (SDM) available via special "download" pads (F_USB set to high)
-- **Power Management:** PMIC NXP PCA9450BHNY
-- **Connectivity:** WiFi/Bluetooth combo chip Realtek RTL8723DS
-- **Antenna:** Kyocera Avx M310220
-- **Camera Support:** 1MP or 2MP with a custom FFC 16-pin connector
-- **Main Connector:** JST B4B-ZR-SM4-TF (1.5mm, 1 row, 4 contacts)
 
-### **Front Side**
-- **IMU Sensor:** Bosch BMI160 (must be positioned as in the official board for compatibility)
-- **Display:** ST0103A2W-WSNLW-F
+### Primary Components
 
+#### Back Side
+* **NXP MIMX8MN5DVPIZAA** (I.MX 8M NANO - ULTRALIGHT)  
+* **PMIC NXP PCA9450BHNY**  
+* **Antenna M310220 Kyocera Avx**  
+* **ADG824BCPZ-REEL7** (For Antenna Diversity)  
+* **Camera** (Minimum 1MP or 2MP, 16/24Pins, around 100° FOV) – currently, only one suitable product has been found.  
+* **Connector JST B4B-ZR-SM4-TF** (1.5mm, 1 Row, 4 Contacts) – Used for power input and serial communication; the same 4-pin header must be present on the new board.  
+* **USB Pads for SDM** (Serial Download Mode for firmware flashing)  
+* **Speaker Pads and External Speaker**  
+
+###### Combo Chip:  
+- **Rev_1.0 to Rev_1.3:** *Realtek RTL8723DS* (Wi-Fi + Bluetooth)  
+- **Final Revision:** *CYW43012* - 106-ball WLBGA (3.76 x 4.43mm; 0.35mm pitch)  
+- **Storage:** *Kingston 32EP16-M4FTC32-GA68* (eMMC 5.1 HS400 + LPDDR4X 144-FBGA)  
+
+#### Front Side
+* **IMU Bosch BMI160**  
+* **Display ST0103A2W-WSNLW-F**  
+* **NC7SP125P5X**  
+* **MAX98357AETE+**  
+
+### 🔧 Design and PCB Progress  
+
+In revisions **Rev_1.0 to Rev_1.3**, the electrical schematic and PCB design contained errors that required correction. The **final revision** now features a **100% complete and accurate schematic**, with no further modifications required.
+
+#### Status:  
+**Schematic:** ██████████ 100% (Complete)  
+**PCB:** ███░░░░░░░░ 30% (In Progress)
 ## 📋 Component List & Costs (Prices may vary depending on the supplier, market trends or other reasons)
-| Component | Part Number | Price (€) |
-|-----------|------------|-----------|
-| Processor | MIMX8MN5DVPIZAA | 24.29 |
-| Memory | 32EP16-M4FTC32-GA68 | 25.35 |
-| Connector | B4B-ZR-SM4-TF | 0.66 |
-| PMIC | PCA9450BHNY | 4.11 |
-| IMU | BMI160 | 1.46 |
-| WiFi/Bluetooth | RTL8723DS | 1.95 |
-| Antenna | M310220 | 0.91 |
-| Display | ST0103A2W-WSNLW-F | 31.84 |
-| PCB + Stencil | - | 120-150 |
+| **Componente**        | **Part Number**                          | **Price (€)**    |
+|-----------------------|------------------------------------------|-------------------|
+| **Processor**        | MIMX8MN5DVPIZAA  (NXP)                        | 24.29            |
+| **Memory ePOP**      | 32EP16-M4FTC32-GA68    (KINGSTON)                 | 25.35            |
+| **Connector**        | B4B-ZR-SM4-TF       (JST)                     | 0.66             |
+| **PMIC**            | PCA9450BHNY     (NXP)                         | 4.11             |
+| **IMU**             | BMI160 (BOSCH)                                   | 1.46             |
+| **WiFi/Bluetooth**  | CYW43012TC0KFFBH  (Infineon Technologies)                       | 10.00            |
+| **Antenna**         | M310220  (KYOCERA AVX)                                | 0.91             |
+| **Display**        | ST0103A2W-WSNLW-F  (SANTEK DISPLAY SPECIALIST)                       | 31.84            |
+| **DAC**            | MAX98357AETE+ (ANALOG DEVICE)                            | 4.50             |
+| **External Speaker**| RS PRO 8Ω 0.5W Miniature Speaker 20mm (RS PRO)   | 15.00            |
+| **RF SWITCH**      | ADG824BCPZ-REEL7 (ANALOG DEVICE)                         | 3.00             |
+| **Buffer**    | NC7SP125P5X (Onsemi Fairchild)                                      | 0.70             |
+| **Camera**         |  MIPI Camera Module – MCM5M120M6F1 (IADY)   | 15.00 (USD)      |
+| **PCB + Stencil**  | JLPCB                                   | 120-150          |
+| **Estimated Total** | -                                        | ~261-291 € + 15 USD |
 
-## 🚀 Getting Started
+
+## 🚀 Getting Started  
+
 1. **Download the Design Files**  
-   - [GitHub Repository](https://github.com/applabstudio/ankivector_headboard)
-   - Altium design files (.SchDoc, .PcbDoc)
-2. **Manufacturing**  
-   - Use the provided Gerber files to order the PCB from your preferred manufacturer.
-3. **Assembly**  
-   - Follow the BOM to source the components and solder them accordingly.
+   - [GitHub Repository](https://github.com/silvioviscuso/nova34)  
+   - Altium design files (**.SchDoc** – schematic files only for now)  
+
+2. **Review the Schematics**  
+   - At this stage, only the **schematic files** should be opened and reviewed.  
+   - The **PCB design is still in progress**, and full assembly instructions will be provided once completed.  
+
+3. **Upcoming Documentation** *(to be released soon)*  
+   - Complete **PCB assembly guide** for both factory production and **homemade/hobbyist assembly**.  
+   - **List of required tools** for manual assembly.  
+   - **Technical drawings** and reference materials.  
+   - **Decals and labeling** for easy identification.  
+   - Additional resources to streamline the build process.  
+
+⭐ Star project and stay tuned for updates!
 
 ## 🤝 Contributing
 This project is open-source, and contributions are welcome! You can help by:
