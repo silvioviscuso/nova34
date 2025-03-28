@@ -43,7 +43,11 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 
 ### 🔧 Design and PCB Progress  
 
-In revisions **Rev_1.0 to Rev_1.3**, the electrical schematic and PCB design contained errors that required correction. The **final revision** now features a **100% complete and accurate schematic**, with no further modifications required.
+## Revision Notes
+
+In **Rev\_1.0 to Rev\_1.3**, the process included several testing phases to assess the engineering validity of component research and selection. Placement and optimization trials were conducted, along with numerous other evaluations, successfully achieving the set objectives.
+
+Now, with the **final revision**, the **schematic is fully defined and accurate**, allowing for a more streamlined approach to PCB design in **High-Speed Design & Signal Integrity**.
 
 #### Status:  
 **Schematic:** ██████████ 100% (Complete)  
@@ -85,13 +89,22 @@ In revisions **Rev_1.0 to Rev_1.3**, the electrical schematic and PCB design con
    - **Decals and labeling** for easy identification.  
    - Additional resources to streamline the build process.  
 
-⭐ Star project and stay tuned for updates!
-
 ## 🤝 Contributing
 This project is open-source, and contributions are welcome! You can help by:
 - Suggesting improvements or fixes.
 - Testing and documenting.
 - Creating alternative designs or add-ons.
+
+We encourage you to submit a pull request with your contributions to help improve the project!
+
+### How to Submit a Pull Request
+1. **Fork the repository** to your GitHub account.
+2. **Create a new branch** dedicated to your revision (e.g., `Rev_1.4-fix-component-placement`).
+3. **Make your changes** and ensure everything works as expected.
+4. **Commit and push** your changes to your forked repository.
+5. **Open a pull request** with a clear description of the modifications and improvements.
+
+## ⭐ Star project and stay tuned for updates!
 
 ## 📜 License
 This project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License**. You are free to modify and share the design, but **commercial use is not permitted**.

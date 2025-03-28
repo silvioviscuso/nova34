@@ -1,0 +1,3 @@
+[submodule "Documentation/docs"]
+	path = Documentation/docs
+	url = https://github.com/silvioviscuso/nova34_docs.git
