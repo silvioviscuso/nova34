@@ -39,7 +39,7 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 * **IMU Bosch BMI160**  
 * **Display ST0103A2W-WSNLW-F**  
 * **NC7SP125P5X**  
-* **MAX98357AETE+**  
+* **MAX98357AETE+T**  
 
 ### 🔧 Design and PCB Progress  
 
@@ -59,7 +59,7 @@ In revisions **Rev_1.0 to Rev_1.3**, the electrical schematic and PCB design con
 | **WiFi/Bluetooth**  | CYW43012TC0KFFBH  (Infineon Technologies)                       | 10.00            |
 | **Antenna**         | M310220  (KYOCERA AVX)                                | 0.91             |
 | **Display**        | ST0103A2W-WSNLW-F  (SANTEK DISPLAY SPECIALIST)                       | 31.84            |
-| **DAC**            | MAX98357AETE+ (ANALOG DEVICE)                            | 4.50             |
+| **DAC**            | MAX98357AETE+T (ANALOG DEVICE)                            | 4.50             |
 | **External Speaker**| RS PRO 8Ω 0.5W Miniature Speaker 20mm (RS PRO)   | 15.00            |
 | **RF SWITCH**      | ADG824BCPZ-REEL7 (ANALOG DEVICE)                         | 3.00             |
 | **Buffer**    | NC7SP125P5X (Onsemi Fairchild)                                      | 0.70             |

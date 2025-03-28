@@ -186,7 +186,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YTHBRDSC
 
 [Document9]
-DocumentPath=C:\Users\Public\Documents\Altium\Nova_34\Nova_SCHLIB.SchLib
+DocumentPath=Nova_SCHLIB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -371,6 +371,35 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ASRZPJVL
+
+[Document20]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Free Documents\CalayNetlist\Nova_34.NET
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Nova_34\WireListNetlist\Nova_34.NET
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Free Documents\CalayNetlist\Nova_34.PRT
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
