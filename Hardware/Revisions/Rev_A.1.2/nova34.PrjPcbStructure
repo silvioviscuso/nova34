@@ -1,13 +1,11 @@
-Record=TopLevelDocument|FileName=Page01 COVER.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page02 BLOCK DIAGRAM.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page03 PWR TREE.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page04 CPU PWR.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page05 DDR4L+eMMC.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page06 CPU IO.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page07 CPU PHY.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page08 CPU MISC.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page09 WIFI&Bluetooth.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page10 BOOT_CFG.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page11 PMIC PCA9450B.SchDoc|SheetNumber=11
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page12 SOM Interface.SchDoc|SheetNumber=12
-Record=NoMainPathDocument|SourceDocument=Page01 COVER.SchDoc|FileName=Page13 IMU_DISPLAY.SchDoc|SheetNumber=13
+Record=TopLevelDocument|FileName=Page03 PWR TREE.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page04 CPU PWR.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page05 DDR4L+eMMC.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page06 CPU IO.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page07 CPU PHY.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page08 CPU MISC.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page09 WIFI&Bluetooth.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page10 BOOT_CFG.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page11 PMIC PCA9450B.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page12 SOM Interface.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=Page03 PWR TREE.SchDoc|FileName=Page13 IMU_DISPLAY.SchDoc|SheetNumber=11
