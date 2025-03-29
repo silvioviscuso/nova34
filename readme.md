@@ -6,7 +6,7 @@
 
 
 ## Overview
-This is an open-source headboard custom PCB designed in Altium for integration with the NXP MIMX8MN5DVPIZAA (I.MX 8M NANO - ULTRALIGHT 11x1MM 8nm). The board is designed to support essential peripherals such as eMMC storage, LPDDR4X RAM, WiFi/Bluetooth, camera module, and display. The design is optimized for performance and ease of assembly, with a compact form factor.
+This is an open-source headboard custom PCB designed in Altium for integration with the NXP MIMX8MN5DVPIZAA (I.MX 8M NANO - ULTRALIGHT 11x1MM 14nm). The board is designed to support essential peripherals such as eMMC storage, LPDDR4X RAM, WiFi/Bluetooth, camera module, and display. The design is optimized for performance and ease of assembly, with a compact form factor.
 
 🎯 **The goal was to make it accessible to everyone—hobbyists, makers, robotics enthusiasts—without minimum order limitations.** This project follows the workflow of creating an SBC (Single Board Computer), robot board, and wearable device.
 
@@ -59,20 +59,21 @@ Initially, we also considered the **AMA3B1KK-KBR-B0 (Apollo3 Blue)**, but in the
 
 Placement and optimization trials were conducted, along with numerous other evaluations, successfully achieving the set objectives.  
 
-Now, with the **final revision**, the **schematic is fully defined and accurate**, allowing for a more streamlined approach to PCB design in **High-Speed Design & Signal Integrity**.  
-
+Additionally, for the **RF switch component**, we utilized the **ADG824BCPZ-REEL7** instead of the **QPC8020QTR13 (Qorvo, RF switch)** to support **Antenna Diversity**, which includes both traced and ceramic antenna configurations.  
 
 Now, with the **final revision**, the **schematic is fully defined and accurate**, allowing for a more streamlined approach to PCB design in **High-Speed Design & Signal Integrity**.
 
 ---
 
-### Test Component Placements
+### Test in old revisions component placements
 | Top Signal | Top SilkScreen | Solder Mask |
 |---------|---------|---------|
 | ![Layer 1](Assets/images/layer_1.png) | ![Layer 2](Assets/images/layer_2.png) | ![Layer 3](Assets/images/layer_3.png) | ![Layer 4](Assets/images/layer_4.png) |
 
-### Old Component Placements
+#### Old preview 3D
 ![Preview Old Placements](Assets/images/Preview_old_placements.png)
+
+--- 
 
 #### Status:  
 **Schematic:** ██████████ 100% (Complete)  
@@ -138,7 +139,7 @@ We encourage you to submit a pull request with your contributions to help improv
 5. **Open a pull request** with a clear description of the modifications and improvements.
 
 ## ⭐ Star project and stay tuned for updates!
----
+
 ## 📜 License
 This project is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License**. You are free to modify and share the design, but **commercial use is not permitted**.
 

@@ -63,7 +63,7 @@ export function Navbar() {
                   Home
                 </Link>
                 <Link
-                  href="https://nova34-docs.example.com"
+                  href="https://nova34-docs.vercel.app"
                   onClick={() => setIsOpen(false)}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
@@ -72,7 +72,7 @@ export function Navbar() {
                   Documentation
                 </Link>
                 <Link
-                  href="https://github.com/yourusername/nova34"
+                  href="https://github.com/silvioviscuso/nova34"
                   onClick={() => setIsOpen(false)}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
@@ -105,62 +105,11 @@ export function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Documentation</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px]">
-                  <li className="row-span-3">
-                    <NavigationMenuLink asChild>
-                      <a
-                        className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md hover:bg-muted/70 transition-colors"
-                        href="/docs"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <CircuitBoard className="h-6 w-6" />
-                        <div className="mb-2 mt-4 text-lg font-medium">
-                          Nova34 Documentation
-                        </div>
-                        <p className="text-sm leading-tight text-muted-foreground">
-                          Comprehensive guides, tutorials, and technical specifications for the Nova34 Linux board.
-                        </p>
-                      </a>
-                    </NavigationMenuLink>
-                  </li>
-                  <li>
-                    <NavigationMenuLink asChild>
-                      <a
-                        href="/docs/getting-started"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                      >
-                        <div className="text-sm font-medium leading-none">Getting Started</div>
-                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                          Quick setup guide for your Nova34 board
-                        </p>
-                      </a>
-                    </NavigationMenuLink>
-                  </li>
-                  <li>
-                    <NavigationMenuLink asChild>
-                      <a
-                        href="/docs/hardware"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                      >
-                        <div className="text-sm font-medium leading-none">Hardware Specs</div>
-                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                          Detailed hardware specifications and pinouts
-                        </p>
-                      </a>
-                    </NavigationMenuLink>
-                  </li>
-                </ul>
-              </NavigationMenuContent>
+                  <a href="https://nova34-docs.vercel.app/">Documentation</a>
+       
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="https://github.com/yourusername/nova34" legacyBehavior passHref>
+              <Link href="https://github.com/silvioviscuso/nova34" legacyBehavior passHref>
                 <NavigationMenuLink 
                   className={navigationMenuTriggerStyle()}
                   target="_blank"
@@ -177,7 +126,7 @@ export function Navbar() {
           <ModeToggle />
           <Button asChild variant="outline" size="icon" className="hidden md:flex group">
             <Link 
-              href="https://github.com/yourusername/nova34"
+              href="https://github.com/silvioviscuso/nova34"
               target="_blank"
               rel="noopener noreferrer"
             >

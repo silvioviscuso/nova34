@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { CircuitBoard, Github, Cpu, Wifi, Database, Zap, Download, ChevronRight, ArrowRight } from "lucide-react";
+import { CircuitBoard, Github, Cpu, Wifi, Database, Zap, Download, ChevronRight, ArrowRight, Camera } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -14,6 +14,7 @@ import { GradientHeading } from "@/components/ui/gradient-heading";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
+      
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-background gradient-bg relative overflow-hidden">
         <div className="container px-4 md:px-6 relative z-10">
@@ -33,14 +34,14 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button asChild size="lg" className="group">
-                    <Link href="https://github.com/yourusername/nova34" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://github.com/silvioviscuso/nova34" target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4 transition-transform group-hover:rotate-12" />
                       View on GitHub
                       <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild className="group">
-                    <Link href="https://nova34-docs.example.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://nova34-docs.vercel.app" target="_blank" rel="noopener noreferrer">
                       Documentation
                       <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Link>
@@ -79,7 +80,6 @@ export default function Home() {
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
       </section>
-
       {/* Features Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/40 relative overflow-hidden">
         <div className="container px-4 md:px-6">
@@ -108,7 +108,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Quad-core ARM processor with up to 1.5GHz clock speed for demanding applications.
+                    NXP MIMX8MN5DVPIZAA (i.MX 8M Nano - Ultralight, 11x11mm) for high-performance computing.
                   </p>
                 </CardContent>
               </Card>
@@ -121,7 +121,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Built-in Wi-Fi 5 (802.11ac) and Bluetooth 5.0 for seamless connectivity.
+                    Final Revision: Infineon CYW43012 Wi-Fi + Bluetooth for reliable connectivity.
                   </p>
                 </CardContent>
               </Card>
@@ -130,11 +130,24 @@ export default function Home() {
               <Card className="card-hover glow border-none bg-background/60 backdrop-blur-sm">
                 <CardHeader className="pb-2">
                   <Database className="h-6 w-6 mb-2 text-primary" />
-                  <CardTitle>Expandable Storage</CardTitle>
+                  <CardTitle>Storage</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    MicroSD card slot and eMMC options for flexible storage solutions.
+                    Kingston 32EP16-M4FTC32-GA68 eMMC 5.1 HS400 + LPDDR4X 144-FBGA for high-speed storage.
+                  </p>
+                </CardContent>
+              </Card>
+            </StaggerItem>
+            <StaggerItem>
+              <Card className="card-hover glow border-none bg-background/60 backdrop-blur-sm">
+                <CardHeader className="pb-2">
+                  <Camera className="h-6 w-6 mb-2 text-primary" />
+                  <CardTitle>Camera Support</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    5MP autofocus camera with 24-pin connector and ~110° FOV.
                   </p>
                 </CardContent>
               </Card>
@@ -143,11 +156,11 @@ export default function Home() {
               <Card className="card-hover glow border-none bg-background/60 backdrop-blur-sm">
                 <CardHeader className="pb-2">
                   <CircuitBoard className="h-6 w-6 mb-2 text-primary" />
-                  <CardTitle>GPIO Pins</CardTitle>
+                  <CardTitle>GPIO & Connectivity</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    40-pin GPIO header compatible with popular accessories and HATs.
+                    40-pin GPIO header, JST B4B-ZR-SM4-TF for power & serial, USB pads for firmware flashing.
                   </p>
                 </CardContent>
               </Card>
@@ -156,31 +169,18 @@ export default function Home() {
               <Card className="card-hover glow border-none bg-background/60 backdrop-blur-sm">
                 <CardHeader className="pb-2">
                   <Zap className="h-6 w-6 mb-2 text-primary" />
-                  <CardTitle>Low Power Consumption</CardTitle>
+                  <CardTitle>Power Management</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Efficient design with power-saving modes for battery-powered applications.
-                  </p>
-                </CardContent>
-              </Card>
-            </StaggerItem>
-            <StaggerItem>
-              <Card className="card-hover glow border-none bg-background/60 backdrop-blur-sm">
-                <CardHeader className="pb-2">
-                  <Download className="h-6 w-6 mb-2 text-primary" />
-                  <CardTitle>Open Source</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground">
-                    Fully open-source hardware and software for maximum flexibility and community support.
+                    NXP PCA9450BHNY PMIC for efficient power management and low power consumption.
                   </p>
                 </CardContent>
               </Card>
             </StaggerItem>
           </StaggerChildren>
         </div>
-        
+
         {/* Animated background elements */}
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl" />
@@ -406,14 +406,14 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button asChild size="lg" className="group">
-                  <Link href="https://github.com/yourusername/nova34" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/silvioviscuso/nova34" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-4 w-4 transition-transform group-hover:rotate-12" />
                     View on GitHub
                     <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" asChild className="group">
-                  <Link href="https://nova34-docs.example.com" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://nova34-docs.vercel.app" target="_blank" rel="noopener noreferrer">
                     Read the Docs
                     <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
@@ -439,7 +439,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-4">
               <Link 
-                href="https://github.com/yourusername/nova34"
+                href="https://github.com/silvioviscuso/nova34"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -447,7 +447,7 @@ export default function Home() {
                 GitHub
               </Link>
               <Link 
-                href="https://nova34-docs.example.com"
+                href="https://nova34-docs.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
