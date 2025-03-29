@@ -3,6 +3,14 @@
 
 # NOVA34 Ultra Small Linux Board - Custom PCB Open Source 🚀
 
+![GitHub Repo stars](https://img.shields.io/github/stars/silvioviscuso/nova34?style=flat) 
+![GitHub forks](https://img.shields.io/github/forks/silvioviscuso/nova34?style=flat) 
+![GitHub license](https://img.shields.io/github/license/silvioviscuso/nova34?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/silvioviscuso/nova34?style=flat) 
+![GitHub contributors](https://img.shields.io/github/contributors/silvioviscuso/nova34?style=flat) 
+![GitHub release](https://img.shields.io/github/v/release/silvioviscuso/nova34?style=flat) 
+![Build Status](https://img.shields.io/github/actions/workflow/status/silvioviscuso/nova34/main.yml?branch=main) 
+![Platform](https://img.shields.io/badge/platform-linux-orange) ![Platform](https://img.shields.io/badge/platform-Android-green)
 
 
 
@@ -73,7 +81,7 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 | ![Layer 1](Assets/images/layer_1.png) | ![Layer 2](Assets/images/layer_2.png) | ![Layer 3](Assets/images/layer_3.png) | ![Layer 4](Assets/images/layer_4.png) |
 
 ### Old Component Placements
-![Preview Old Placements](Assets/images/preview_old_placements.png)
+![Preview Old Placements](Assets/images/Preview_old_placements.png)
 
 #### Status:  
 **Schematic:** ██████████ 100% (Complete)  
