@@ -5,7 +5,6 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/silvioviscuso/nova34?style=flat) ![GitHub forks](https://img.shields.io/github/forks/silvioviscuso/nova34?style=flat) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/silvioviscuso/nova34?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/silvioviscuso/nova34?style=flat) ![Platform](https://img.shields.io/badge/platform-linux-orange) ![Platform](https://img.shields.io/badge/platform-Android-green)
 
 
-
 ## Overview
 This is an open-source headboard custom PCB designed in Altium for integration with the NXP MIMX8MN5DVPIZAA (I.MX 8M NANO - ULTRALIGHT 11x1MM 8nm). The board is designed to support essential peripherals such as eMMC storage, LPDDR4X RAM, WiFi/Bluetooth, camera module, and display. The design is optimized for performance and ease of assembly, with a compact form factor.
 
@@ -102,6 +101,8 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 
 ---
 ## 🚀 Getting Started  
+
+#### The official documentation can be found in the nova34_docs repository at the following link: [nova34-docs.vercel.app](https://nova34-docs.vercel.app)
 
 ### Requirements:
 - Software: Altium Designer v24.6.1 or later. (Fully compatible with **MacOS via Parallels Desktop with Windows 11 ARM**).
