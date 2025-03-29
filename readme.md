@@ -5,11 +5,10 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/silvioviscuso/nova34?style=flat) 
 ![GitHub forks](https://img.shields.io/github/forks/silvioviscuso/nova34?style=flat) 
-![GitHub license](https://img.shields.io/github/license/silvioviscuso/nova34?style=flat)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/silvioviscuso/nova34?style=flat) 
 ![GitHub contributors](https://img.shields.io/github/contributors/silvioviscuso/nova34?style=flat) 
-![GitHub release](https://img.shields.io/github/v/release/silvioviscuso/nova34?style=flat) 
-![Build Status](https://img.shields.io/github/actions/workflow/status/silvioviscuso/nova34/main.yml?branch=main) 
 ![Platform](https://img.shields.io/badge/platform-linux-orange) ![Platform](https://img.shields.io/badge/platform-Android-green)
 
 
