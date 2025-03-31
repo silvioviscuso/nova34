@@ -102,12 +102,16 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 | **Estimated Total** | -                                        | ~261-291 € + 15 USD |
 
 ---
+
+### Requirements:
+- Software: Altium Designer v24.6.1 or later. (Fully compatible with **MacOS via Parallels Desktop with Windows 11 ARM**).
+
+---
+
 ## 🚀 Getting Started  
 
 #### The official documentation can be found in the nova34_docs repository at the following link: [nova34-docs.vercel.app](https://nova34-docs.vercel.app)
 
-### Requirements:
-- Software: Altium Designer v24.6.1 or later. (Fully compatible with **MacOS via Parallels Desktop with Windows 11 ARM**).
 
 1. **Download the Design Files**  
    - [GitHub Repository](https://github.com/silvioviscuso/nova34)  
@@ -124,11 +128,16 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
    - **Decals and labeling** for easy identification.  
    - Additional resources to streamline the build process.  
 ---
+
 ## 🤝 Contributing
 This project is open-source, and contributions are welcome! You can help by:
 - Suggesting improvements or fixes.
 - Testing and documenting.
 - Creating alternative designs or add-ons.
+- Developing a custom jig with pogo pins.
+- Generating an interactive BOM (HTML/PDF).
+- Designing a high-speed circuit with signal integrity considerations.
+- Performing thermal simulations.
 
 We encourage you to submit a pull request with your contributions to help improve the project!
 
