@@ -6,7 +6,7 @@
 
 
 ## Overview
-This is an open-source headboard custom PCB designed in Altium for integration with the NXP MIMX8MN5DVPIZAA (I.MX 8M NANO - ULTRALIGHT 11x1MM 14nm). The board is designed to support essential peripherals such as eMMC storage, LPDDR4X RAM, WiFi/Bluetooth, camera module, and display. The design is optimized for performance and ease of assembly, with a compact form factor.
+This is an open-source headboard custom PCB designed in Altium for integration with the NXP MIMX8MN5DVPIZAA (I.MX 8M NANO - ULTRALIGHT 11x11MM 14nm). The board is designed to support essential peripherals such as eMMC storage, LPDDR4X RAM, WiFi/Bluetooth, camera module, and display. The design is optimized for performance and ease of assembly, with a compact form factor.
 
 🎯 **The goal was to make it accessible to everyone—hobbyists, makers, robotics enthusiasts—without minimum order limitations.** This project follows the workflow of creating an SBC (Single Board Computer), robot board, and wearable device.
 
@@ -82,9 +82,10 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 ---
 
 ## 📋 Component List & Costs (Prices may vary depending on the supplier, market trends or other reasons)
+📄 A detailed spreadsheet with reference links (primary components) has been created. You can find it here: [Components/components.md](Components/components.md).
 | **Componente**        | **Part Number**                          | **Price (€)**    |
 |-----------------------|------------------------------------------|-------------------|
-| **Processor**        | MIMX8MN5DVPIZAA  (NXP)                        | 24.29            |
+| **Processor**        | MIMX8MN5DVPIZAA  (NXP)                        | 22.14            |
 | **Memory ePOP**      | 32EP16-M4FTC32-GA68    (KINGSTON)                 | 25.35            |
 | **Connector**        | B4B-ZR-SM4-TF       (JST)                     | 0.66             |
 | **PMIC**            | PCA9450BHNY     (NXP)                         | 4.11             |
