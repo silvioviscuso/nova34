@@ -100,9 +100,9 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 | **RF SWITCH**      | ADG824BCPZ-REEL7 (ANALOG DEVICE)                         | 3.00             |
 | **Buffer**    | NC7SP125P5X (Onsemi Fairchild)                                      | 0.70             |
 | **Camera**         | 5MP MIPI Camera Module – MCM5M120M6F1 (IADY)   | 15.00 (USD)      |
-| **Power Switch**   | ADP191ACBZ-R7 (ANALOG DEVICE)   | 15.00 (USD)      |
+| **Power Switch**   | ADP191ACBZ-R7 (ANALOG DEVICE)   | 1.91 (USD)      |
 | **PCB + Stencil**  | JLPCB                                   | 120-150          |
-| **Estimated Total** | -                                        | ~261-291 € + 15 USD |
+
 
 ---
 
