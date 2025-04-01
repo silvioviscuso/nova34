@@ -51,15 +51,17 @@ This is an open-source headboard custom PCB designed in Altium for integration w
 
 In **Rev_1.0 to Rev_1.3**, the process included several testing phases to assess the engineering validity of component research and selection.  
 
-During this phase, we identified the **ADP191ACBZ-R7**, an ultra-compact high-side load switch. This component could be useful for managing power distribution efficiently, providing controlled power switching to different subsystems while offering short-circuit and overcurrent protection. However, based on the latest schematic, the **PMIC should already handle all power management efficiently, safely, and in a controlled manner**, making additional power switching unnecessary in most scenarios.  
+- During this phase, we identified the **ADP191ACBZ-R7**, an ultra-compact high-side load switch. This component could be useful for managing power distribution efficiently, providing controlled power switching to different subsystems while offering short-circuit and overcurrent protection.
 
-Additionally, we replaced the **RTL8723DS (6x6mm)** combo-chip Wi-Fi/Bluetooth. Its footprint fit comfortably in the upper-right section of the back-side of the board. However, after further evaluation, we found a better and more compact alternative: the **CYW43012**, which offers improved efficiency and performance.  
+- With the latest revision, we implemented the **ADP191ACBZ-R7**,  Now, the **ADP191ACBZ-R7** also provides **ESD protection**, which was previously required only for USB connections. To ensure stable voltages, we added protection for the **CAMERA, DISPLAY, and WIFI module** using the **ADP191ACBZ-R7**. Additionally, we included a differential pair for the USB connection. The **ADP191ACBZ-R7** is now connected with **GPIO pins**, allowing it to be enabled and disabled as needed.
 
-Initially, we also considered the **AMA3B1KK-KBR-B0 (Apollo3 Blue)**, but in the end, we opted for the **CYW43012** as the best choice for this design. That said, we could still explore **future variants** incorporating different wireless solutions based on project needs.  
+- Additionally, we replaced the **RTL8723DS (6x6mm)** combo-chip Wi-Fi/Bluetooth. Its footprint fit comfortably in the upper-right section of the back-side of the board. However, after further evaluation, we found a better and more compact alternative: the **CYW43012**, which offers improved efficiency and performance.  
 
-Placement and optimization trials were conducted, along with numerous other evaluations, successfully achieving the set objectives.  
+- Initially, we also considered the **AMA3B1KK-KBR-B0 (Apollo3 Blue)**, but in the end, we opted for the **CYW43012** as the best choice for this design. That said, we could still explore **future variants** incorporating different wireless solutions based on project needs.  
 
-Additionally, for the **RF switch component**, we utilized the **ADG824BCPZ-REEL7** instead of the **QPC8020QTR13 (Qorvo, RF switch)** to support **Antenna Diversity**, which includes both traced and ceramic antenna configurations.  
+- Placement and optimization trials were conducted, along with numerous other evaluations, successfully achieving the set objectives.  
+
+- Additionally, for the **RF switch component**, we utilized the **ADG824BCPZ-REEL7** instead of the **QPC8020QTR13 (Qorvo, RF switch)** to support **Antenna Diversity**, which includes both traced and ceramic antenna configurations.  
 
 Now, with the **final revision**, the **schematic is fully defined and accurate**, allowing for a more streamlined approach to PCB design in **High-Speed Design & Signal Integrity**.
 
@@ -70,8 +72,8 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 |---------|---------|---------|
 | ![Layer 1](Assets/images/layer_1.png) | ![Layer 2](Assets/images/layer_2.png) | ![Layer 3](Assets/images/layer_3.png) | ![Layer 4](Assets/images/layer_4.png) |
 
-#### Old preview 3D
-![Preview Old Placements](Assets/images/Preview_old_placements.png)
+##### Old preview 3D
+<img src="Assets/images/Preview_old_placements.png" width="60%">
 
 --- 
 
@@ -98,6 +100,7 @@ Now, with the **final revision**, the **schematic is fully defined and accurate*
 | **RF SWITCH**      | ADG824BCPZ-REEL7 (ANALOG DEVICE)                         | 3.00             |
 | **Buffer**    | NC7SP125P5X (Onsemi Fairchild)                                      | 0.70             |
 | **Camera**         | 5MP MIPI Camera Module – MCM5M120M6F1 (IADY)   | 15.00 (USD)      |
+| **Power Switch**   | ADP191ACBZ-R7 (ANALOG DEVICE)   | 15.00 (USD)      |
 | **PCB + Stencil**  | JLPCB                                   | 120-150          |
 | **Estimated Total** | -                                        | ~261-291 € + 15 USD |
 
